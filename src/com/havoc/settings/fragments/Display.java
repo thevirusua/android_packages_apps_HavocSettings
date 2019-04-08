@@ -52,7 +52,6 @@ public class Display extends SettingsPreferenceFragment implements
     private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
     private static final String SYSUI_STATUS_BAR_PADDING = "sysui_status_bar_padding";
-    private static final String PREF_KEY_CUTOUT = "cutout_settings";
 
     private SystemSettingMasterSwitchPreference mSmartPixelsEnabled;
     private SystemSettingMasterSwitchPreference mStabilizationEnabled;
@@ -127,11 +126,6 @@ public class Display extends SettingsPreferenceFragment implements
         // Rounded use Framework Values
         mRoundedFwvals = (SecureSettingSwitchPreference) findPreference(SYSUI_ROUNDED_FWVALS);
         mRoundedFwvals.setOnPreferenceChangeListener(this);
-
-        Preference mCutoutPref = (Preference) findPreference(PREF_KEY_CUTOUT);
-        if (!hasPhysicalDisplayCutout(getContext())) {
-            getPreferenceScreen().removePreference(mCutoutPref);
-        }
     }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
@@ -176,11 +170,6 @@ public class Display extends SettingsPreferenceFragment implements
         mCornerRadius.setValue((int) (res.getDimension(resourceIdRadius) / density));
         mContentPadding.setValue((int) (res.getDimension(resourceIdPadding) / density));
         mSBPadding.setValue((int) (res.getDimension(resourceIdSBPadding) / density));
-    }
-
-    private static boolean hasPhysicalDisplayCutout(Context context) {
-        return context.getResources().getBoolean(
-                com.android.internal.R.bool.config_physicalDisplayCutout);
     }
 
     @Override

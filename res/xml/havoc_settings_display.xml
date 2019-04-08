@@ -74,16 +74,4 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:key="cutout_settings"
-        android:title="@string/cutout_main" >
-
-    <Preference
-        android:key="cutout_settings"
-        android:title="@string/cutout_main"
-        android:summary="@string/cutout_main_summary"
-        android:fragment="com.havoc.settings.fragments.CutoutFragment" />
-
-    </PreferenceCategory>
-
 </PreferenceScreen>
