@@ -1414,8 +1414,8 @@
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_apple">Яблоко</string>
     <string name="status_bar_logo_style_beats">Beats</string>
-    <string name="status_bar_logo_style_biohazard">Biohazard</string>
-    <string name="status_bar_logo_style_blackberry">Blackberry</string>
+    <string name="status_bar_logo_style_biohazard">Биологическая опасность</string>
+    <string name="status_bar_logo_style_blackberry">Блекберри</string>
     <string name="status_bar_logo_style_blogger">Блоггер</string>
     <string name="status_bar_logo_style_bomb">Бомба</string>
     <string name="status_bar_logo_style_brain">Мозг</string>
