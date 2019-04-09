@@ -30,7 +30,7 @@
     <string name="havoc_announcements_summary">Официальный канал объявлений</string>
     <string name="havoc_telegram_title">Telegram</string>
     <string name="havoc_telegram_summary">Группа поддержки для официальных сборок</string>
-    <string name="havoc_discord_summary">Официальный сервер для поддержки прошивки</string>													   
+    <string name="havoc_discord_summary">Официальный сервер Discord</string>													   
     <string name="havoc_source_title">Github</string>
     <string name="havoc_source_summary">Исходный код Havoc-OS</string>
     <string name="havoc_donate">Пожертвовать</string>
