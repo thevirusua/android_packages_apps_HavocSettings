@@ -1378,11 +1378,11 @@
     <string name="reboot_dialog_ok">Перезагрузка</string>
     <string name="reboot_dialog_cancel">@string/cancel</string>
  <!-- Lockscreen cover art filter -->
-    <string name="lockscreen_cover_filter_title">фильтр обложки альбома на экране блокировки</string>
-    <string name="lockscreen_cover_filter_none">Нет</string>
+    <string name="lockscreen_cover_filter_title">Фильтр обложки альбома на экране блокировки</string>
+    <string name="lockscreen_cover_filter_none">Отключить</string>
     <string name="lockscreen_cover_filter_grayscale">Оттенки серого</string>
     <string name="lockscreen_cover_filter_tint">Тонировано под цвет акцента</string>
-    <string name="lockscreen_cover_filter_blur">Размыть</string>
+    <string name="lockscreen_cover_filter_blur">Размытие</string>
     <string name="lockscreen_cover_filter_grayblur">Оттенки серого и размытие</string>
 
     <!-- Aggressive battery -->
@@ -1394,7 +1394,7 @@
     <string name="aggressive_standby_title">Агрессивный режим ожидания</string>
     <string name="aggressive_standby_summary">Запретить приложениям работу в фоне</string>
     <string name="aggressive_battery_saver_title">Автоматическое включение экономии заряда батареи</string>
-    <string name="aggressive_battery_saver_summary">Включите агрессивную батарею автоматически при использовании экономии заряда батареи</string>
+    <string name="aggressive_battery_saver_summary">Включите агрессивную экономию батареи автоматически при использовании экономии заряда батареи</string>
 
     <string name="slim_recents_enter_exit_animation_title">Анимация</string>
     <string name="slim_recents_enter_exit_animation_translate">Translate</string>
@@ -1422,15 +1422,15 @@
     <string name="status_bar_logo_style_cake">Торт</string>
     <string name="status_bar_logo_style_cannabis">Канабис</string>
     <string name="status_bar_logo_style_death_star">Звезда Смерти</string>
-    <string name="status_bar_logo_style_emoticon">Emoji</string>
-    <string name="status_bar_logo_style_emoticon_cool">Emoji (Cool)</string>
-    <string name="status_bar_logo_style_emoticon_dead">Emoji (Dead)</string>
-    <string name="status_bar_logo_style_emoticon_devil">Emoji (Devil)</string>
-    <string name="status_bar_logo_style_emoticon_happy">Emoji (Happy)</string>
-    <string name="status_bar_logo_style_emoticon_neutral">Emoji (Neutral)</string>
-    <string name="status_bar_logo_style_emoticon_poop">Emoji (Poop)</string>
-    <string name="status_bar_logo_style_emoticon_sad">Emoji (Sad)</string>
-    <string name="status_bar_logo_style_emoticon_tongue">Emoji (Tongue)</string>
+    <string name="status_bar_logo_style_emoticon">Эмодзи</string>
+    <string name="status_bar_logo_style_emoticon_cool">Эмодзи (Крутой)</string>
+    <string name="status_bar_logo_style_emoticon_dead">Эмодзи (Мертвый)</string>
+    <string name="status_bar_logo_style_emoticon_devil">Эмодзи (Дьявол)</string>
+    <string name="status_bar_logo_style_emoticon_happy">Эмодзи (Радостный)</string>
+    <string name="status_bar_logo_style_emoticon_neutral">Эмодзи (Нейтральный)</string>
+    <string name="status_bar_logo_style_emoticon_poop">Эмодзи (Дерьмо)</string>
+    <string name="status_bar_logo_style_emoticon_sad">Эмодзи (Грустный)</string>
+    <string name="status_bar_logo_style_emoticon_tongue">Эмодзи (Язык)</string>
     <string name="status_bar_logo_style_fire">Огонь</string>
     <string name="status_bar_logo_style_flask">Колба</string>
     <string name="status_bar_logo_style_gender_male">Мужской пол</string>
@@ -1454,7 +1454,7 @@
     <string name="status_bar_logo_style_peace">Спокойствие</string>
     <string name="status_bar_logo_style_robot">Робот</string>
     <string name="status_bar_logo_style_skull">Череп</string>
-    <string name="status_bar_logo_style_smoking">Smoking</string>
+    <string name="status_bar_logo_style_smoking">Курение</string>
     <string name="status_bar_logo_style_wallet">Бумажник</string>
     <string name="status_bar_logo_style_windows">Windows</string>
     <string name="status_bar_logo_style_xbox">XBOX</string>
