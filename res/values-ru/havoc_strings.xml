@@ -30,6 +30,7 @@
     <string name="havoc_announcements_summary">Официальный канал объявлений</string>
     <string name="havoc_telegram_title">Telegram</string>
     <string name="havoc_telegram_summary">Группа поддержки для официальных сборок</string>
+    <string name="havoc_discord_summary">Официальный сервер для поддержки прошивки</string>													   
     <string name="havoc_source_title">Github</string>
     <string name="havoc_source_summary">Исходный код Havoc-OS</string>
     <string name="havoc_donate">Пожертвовать</string>
@@ -1295,6 +1296,8 @@
     <string name="file_header_select_title">Выберите своё изображение</string>
     <string name="file_header_select_summary">Выберите изображение с телефона</string>
     <string name="file_header_provider_title">Одно изображение</string>
+
+
     <!-- Pie -->
     <string name="pa_pie_control_summary">Свайп с края для включения/отключения PIE, состоящего из управления ярлыками и навигацией</string>
     <string name="pa_pie_control_title">Круговое меню</string>
@@ -1352,6 +1355,7 @@
     <string name="action_qs_panel">Панель быстрых настроек</string>
     <string name="action_app_action">Приложение</string>
     <string name="action_ringer_modes">Режимы звонков</string>
+
     <!-- Keyguard multiuser switch -->
     <string name="keyguard_multiuser_switch_title">Переключение пользователей</string>
     <string name="keyguard_multiuser_switch_summary">Иконка пользователя в строке состояния</string>
@@ -1373,4 +1377,87 @@
     <string name="icon_shape_changed_message">Изменение формы значка повлияет только на вновь запущенные приложения. Таким образом, рекомендуется перезагрузить устройство, чтобы полностью применить эту настройку. Если после этого некоторые приложения все еще используют старую форму, то попробуйте очистить кэш приложения.</string>
     <string name="reboot_dialog_ok">Перезагрузка</string>
     <string name="reboot_dialog_cancel">@string/cancel</string>
+ <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">фильтр обложки альбома на экране блокировки</string>
+    <string name="lockscreen_cover_filter_none">Нет</string>
+    <string name="lockscreen_cover_filter_grayscale">Оттенки серого</string>
+    <string name="lockscreen_cover_filter_tint">Тонировано под цвет акцента</string>
+    <string name="lockscreen_cover_filter_blur">Размыть</string>
+    <string name="lockscreen_cover_filter_grayblur">Оттенки серого и размытие</string>
+
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Агресивная экономия батареи</string>
+    <string name="aggressive_battery_summary">Более строгая экономия батареи</string>
+    <string name="aggressive_battery_warning_text">Это функции энергосбережения. Они могут создавать помехи службам, предназначенным для работы в режиме ожидания, например навигационным приложениям. Вы можете включить эти приложения в белый список в настройках батареи приложения.</string>
+    <string name="aggressive_idle_title">Агрессивный режим сна</string>
+    <string name="aggressive_idle_summary">Входить в режим сна более часто и меньше просыпаться</string>
+    <string name="aggressive_standby_title">Агрессивный режим ожидания</string>
+    <string name="aggressive_standby_summary">Запретить приложениям работу в фоне</string>
+    <string name="aggressive_battery_saver_title">Автоматическое включение экономии заряда батареи</string>
+    <string name="aggressive_battery_saver_summary">Включите агрессивную батарею автоматически при использовании экономии заряда батареи</string>
+
+    <string name="slim_recents_enter_exit_animation_title">Анимация</string>
+    <string name="slim_recents_enter_exit_animation_translate">Translate</string>
+    <string name="slim_recents_enter_exit_animation_fade">Затухание</string>
+
+    <!-- Statusbar logo -->
+    <string name="statusbar_logo">Логотип</string>
+    <string name="status_bar_logo_title">Пользовательский логотип</string>
+    <string name="status_bar_logo_summary">Показывать пользовательский логотип в статусбаре</string>
+    <string name="status_bar_logo_color">Цвет логотипа</string>
+    <string name="status_bar_logo_position">Позиция логотипа</string>
+    <string name="status_bar_logo_position_summary">%1$s</string>
+    <string name="status_bar_logo_position_right">Слева</string>
+    <string name="status_bar_logo_position_left">Справа</string>
+    <string name="status_bar_logo_style">Стиль логотипа</string>
+    <string name="status_bar_logo_style_havoc">Havoc</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_apple">Яблоко</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Biohazard</string>
+    <string name="status_bar_logo_style_blackberry">Blackberry</string>
+    <string name="status_bar_logo_style_blogger">Блоггер</string>
+    <string name="status_bar_logo_style_bomb">Бомба</string>
+    <string name="status_bar_logo_style_brain">Мозг</string>
+    <string name="status_bar_logo_style_cake">Торт</string>
+    <string name="status_bar_logo_style_cannabis">Канабис</string>
+    <string name="status_bar_logo_style_death_star">Звезда Смерти</string>
+    <string name="status_bar_logo_style_emoticon">Emoji</string>
+    <string name="status_bar_logo_style_emoticon_cool">Emoji (Cool)</string>
+    <string name="status_bar_logo_style_emoticon_dead">Emoji (Dead)</string>
+    <string name="status_bar_logo_style_emoticon_devil">Emoji (Devil)</string>
+    <string name="status_bar_logo_style_emoticon_happy">Emoji (Happy)</string>
+    <string name="status_bar_logo_style_emoticon_neutral">Emoji (Neutral)</string>
+    <string name="status_bar_logo_style_emoticon_poop">Emoji (Poop)</string>
+    <string name="status_bar_logo_style_emoticon_sad">Emoji (Sad)</string>
+    <string name="status_bar_logo_style_emoticon_tongue">Emoji (Tongue)</string>
+    <string name="status_bar_logo_style_fire">Огонь</string>
+    <string name="status_bar_logo_style_flask">Колба</string>
+    <string name="status_bar_logo_style_gender_male">Мужской пол</string>
+    <string name="status_bar_logo_style_gender_female">Женский пол</string>
+    <string name="status_bar_logo_style_gender_male_female">Пол (Женский и Мужской)</string>
+    <string name="status_bar_logo_style_ghost">Призрак</string>
+    <string name="status_bar_logo_style_google">Google</string>
+    <string name="status_bar_logo_style_guitar_acoustic">Гитара (Акустическая)</string>
+    <string name="status_bar_logo_style_guitar_electric">Гитара (Электрическая)</string>
+    <string name="status_bar_logo_style_heart">Серце</string>
+    <string name="status_bar_logo_style_human_male">Человек (Мужчина)</string>
+    <string name="status_bar_logo_style_human_female">Человек (Женщина)</string>
+    <string name="status_bar_logo_style_human_male_female">Человек (Мужчина и Женщина)</string>
+    <string name="status_bar_logo_style_incognito">Инкогнито</string>
+    <string name="status_bar_logo_style_ios">iOS</string>
+    <string name="status_bar_logo_style_linux">Linux</string>
+    <string name="status_bar_logo_style_lock">Замок</string>
+    <string name="status_bar_logo_style_music_note">Нота</string>
+    <string name="status_bar_logo_style_ninja">Нинзя</string>
+    <string name="status_bar_logo_style_pac_man">Pac-Man</string>
+    <string name="status_bar_logo_style_peace">Спокойствие</string>
+    <string name="status_bar_logo_style_robot">Робот</string>
+    <string name="status_bar_logo_style_skull">Череп</string>
+    <string name="status_bar_logo_style_smoking">Smoking</string>
+    <string name="status_bar_logo_style_wallet">Бумажник</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">XBOX</string>
+    <string name="status_bar_logo_style_xbox_controller">XBOX Controller</string>
+    <string name="status_bar_logo_style_yin_yang">Yin-Yang</string>
 </resources>
