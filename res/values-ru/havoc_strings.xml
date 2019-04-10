@@ -347,8 +347,8 @@
     <!-- On-The-Go -->
     <string name="onthego_title">Режим \"На ходу\"</string>
     <string name="global_actions_onthego_title">На ходу</string>
-    <string name="onthego_alpha_title">На ходу (альфа)</string>
-    <string name="onthego_alpha_summary">Альфа значение наложения режима «На ходу»</string>
+    <string name="onthego_alpha_title">На ходу (прозрачность)</string>
+    <string name="onthego_alpha_summary">Прозрачность наложения режима «На ходу»</string>
     <string name="app_ops_settings_title">Защита конфиденциальности</string>
     <string name="app_ops_settings_summary">Блокировать права доступа</string>
     <!-- Volume key cursor control -->
