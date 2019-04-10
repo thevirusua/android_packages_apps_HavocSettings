@@ -1440,7 +1440,7 @@
     <string name="status_bar_logo_style_human_male"> Людина (Чоловік) </string>
     <string name="status_bar_logo_style_human_female"> Людина (Жінка) </string>
     <string name="status_bar_logo_style_human_male_female"> Людина (Чоловік і Жінка) </string>
-	<string name="status_bar_logo_style_incognito"> Інкогніто </string>
+    <string name="status_bar_logo_style_incognito"> Інкогніто </string>
     <string name="status_bar_logo_style_ios"> iOS </string>
     <string name="status_bar_logo_style_linux"> Linux </string>
     <string name="status_bar_logo_style_lock"> Замок </string>
