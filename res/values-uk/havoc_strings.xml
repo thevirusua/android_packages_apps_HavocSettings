@@ -30,6 +30,7 @@
     <string name="havoc_announcements_summary">Канал офіційних анонсів</string>
     <string name="havoc_telegram_title">Telegram</string>
     <string name="havoc_telegram_summary">Група підтримки для офіційних збірок</string>
+    <string name="havoc_discord_summary">Офіційний сервер Discord</string>																											 
     <string name="havoc_source_title">Github</string>
     <string name="havoc_source_summary">Вихідний код HavocOS</string>
     <string name="havoc_donate">Пожертвувати</string>
@@ -38,7 +39,7 @@
     <string name="website_title">Web-сайт</string>
     <string name="website_title_summary">Завантажте HavocOS для вашого пристрою</string>
     <!-- Categories -->
-    <string name="about_title">Про</string>
+    <string name="about_title">Про нас</string>
     <string name="animations_title">Анімації</string>
     <string name="buttons_title">Кнопки</string>
     <string name="display_title">Екран</string>
@@ -85,7 +86,7 @@
     <string name="gesture_ls">Екран</string>
     <string name="themes_title">Теми</string>
     <string name="havoc_density">Дисплей</string>
-    <string name="corners_category">Кути</string>
+    <string name="corners_category">Закруглення кутів</string>
     <string name="ls_clock">Віджети</string>
     <string name="ls_date">Стиль дати</string>
     <string name="ls_shortcuts">Ярлики</string>
@@ -779,26 +780,26 @@
     <string name="SHORT_LIGHT_PRE_IDLE_TIMEOUT">Light pre idle timeout</string>
     <string name="SHORT_LIGHT_IDLE_TIMEOUT">Light idle timeout</string>
     <string name="SHORT_LIGHT_IDLE_FACTOR">Light idle factor</string>
-    <string name="SHORT_LIGHT_MAX_IDLE_TIMEOUT">Max light idle timeout</string>
+    <string name="SHORT_LIGHT_MAX_IDLE_TIMEOUT">Максимальний тайм-аут легкого простою</string>
     <string name="SHORT_LIGHT_IDLE_MAINTENANCE_MIN_BUDGET">Maintenance mode light idle min timeout</string>
     <string name="SHORT_LIGHT_IDLE_MAINTENANCE_MAX_BUDGET">Maintenance mode light idle max timeout</string>
-    <string name="SHORT_MIN_LIGHT_MAINTENANCE_TIME">Maintenance mode light doze min timeout</string>
-    <string name="SHORT_MIN_DEEP_MAINTENANCE_TIME">Maintenance mode full doze min timeout</string>
-    <string name="SHORT_KEY_NOTIFICATION_WHITELIST_DURATION">Max notification whitelist duration</string>
+    <string name="SHORT_MIN_LIGHT_MAINTENANCE_TIME">Мінімальний тайм-аут легкого сну в режимі обслуговування</string>
+    <string name="SHORT_MIN_DEEP_MAINTENANCE_TIME">Мінімальний тайм-аут повного сну в режимі обслуговування</string>
+    <string name="SHORT_KEY_NOTIFICATION_WHITELIST_DURATION">Максимальна тривалість повідомлень з білого списку</string>
     <!-- Time In State & CPU State -->
-    <string name="state_time_mode">Awake</string>
-    <string name="since_boot">Boot</string>
-    <string name="since_charged">Charged</string>
-    <string name="since_unplugged">Unplugged</string>
+    <string name="state_time_mode">Активний режим</string>
+    <string name="since_boot">Завантаження</string>
+    <string name="since_charged">Зарядка</string>
+    <string name="since_unplugged">З моменту відключення зарядки</string>
     <string name="since_reset">Скинути</string>
-    <string name="since_unplug">Unplug</string>
-    <string name="other">Activity</string>
-    <string name="kernel_wakelocks">Kernel wakelocks</string>
-    <string name="partial_wakelocks">Partial wakelocks</string>
-    <string name="app_wakelocks">App wakelocks</string>
+    <string name="since_unplug">З моменту відключення зарядки</string>
+    <string name="other">Активність</string>
+    <string name="kernel_wakelocks">Вейклоки ядра</string>
+    <string name="partial_wakelocks">Часткові вейклоки</string>
+    <string name="app_wakelocks">Пробудження додатків</string>
     <string name="create_ref">Скинути</string>
-    <string name="spinner_period_title">Since</string>
-    <string name="spinner_type_title">Show</string>
+    <string name="spinner_period_title">Починаючи з</string>
+    <string name="spinner_type_title">Показати</string>
     <string name="screen_on_time">Увімкнути екран</string>
     <string name="awake_time">Час активності</string>
     <string name="deep_sleep_time">Глибокий сон</string>
@@ -819,7 +820,7 @@
     <string name="no_stat_because_plugged">Відключіть зарядний пристрій для початку збору даних Wakelock\'а</string>
     <string name="no_states_file_found">Не знайдено states-файл. Ви впевнені, що ваш телефон
         сумісний?\n\nЯкщо ви працюєте на кастомній прошивці або ядрі, спробуйте
-        зв\'язатися з розробником і повідомити йому, що states-файл неможливо
+        зв\'язатися з розробником і повідомити йому, що states-файл неможливо
         прочитати.</string>
     <string name="deep_sleep">"Глибокий сон"</string>
     <string name="mt_refresh">Оновити</string>
@@ -1351,11 +1352,11 @@
     <string name="action_power_menu">Меню живлення</string>
     <string name="action_screenshot">Скріншот</string>
     <string name="action_qs_panel">Панель швидких налаштувань</string>
-    <string name="action_app_action">Application</string>
-    <string name="action_ringer_modes">Ringer modes</string>
+    <string name="action_app_action">Додаток</string>
+    <string name="action_ringer_modes">Режими дзвінків</string>
     <!-- Keyguard multiuser switch -->
-    <string name="keyguard_multiuser_switch_title">Multiuser switch</string>
-    <string name="keyguard_multiuser_switch_summary">Show multiuser switch on the statusbar</string>
+    <string name="keyguard_multiuser_switch_title">Перемикання користувачів</string>
+    <string name="keyguard_multiuser_switch_summary">Іконка користувача в рядці стану</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_gesture_title">Screen off torch</string>
     <string name="power_button_torch_gesture_none">Вимкнено</string>
@@ -1371,7 +1372,87 @@
     <string name="icon_shape_teardrop">Teardrop</string>
     <string name="icon_shape_hexagon">Hexagon</string>
     <string name="icon_shape_changed_title">Update icon shape</string>
-    <string name="icon_shape_changed_message">Changing the icon shape will only affect new started apps. Thus, it is recommended to reboot your device to fully apply this setting. If some apps still use the old shape after that, try clearing their app cache.</string>
+    <string name="icon_shape_changed_message">Зміна форми значка вплине тільки на знову запущені програми. Таким чином, рекомендується перезавантажити пристрій, щоб повністю застосувати цю настройку.</string>
     <string name="reboot_dialog_ok">Перезавантаження</string>
     <string name="reboot_dialog_cancel">@string/cancel</string>
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Фильтр обложки песни</string>
+    <string name="lockscreen_cover_filter_none">Нет</string>
+    <string name="lockscreen_cover_filter_grayscale">Оттенки серого</string>
+    <string name="lockscreen_cover_filter_tint">Тонировано под цвет акцента</string>
+    <string name="lockscreen_cover_filter_blur">Размытие</string>
+    <string name="lockscreen_cover_filter_grayblur">Оттенки серого и размытие</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Агресивная экономия батареи</string>
+    <string name="aggressive_battery_summary">Более строгая экономия батареи</string>
+    <string name="aggressive_battery_warning_text">Это функции энергосбережения. Они могут создавать помехи службам, предназначенным для работы в режиме ожидания, например навигационным приложениям. Вы можете включить эти приложения в белый список в настройках экономии батареи.</string>
+    <string name="aggressive_idle_title">Агрессивный режим сна</string>
+    <string name="aggressive_idle_summary">Входить в режим сна более часто и меньше просыпаться</string>
+    <string name="aggressive_standby_title">Агрессивный режим ожидания</string>
+    <string name="aggressive_standby_summary">Запретить приложениям работу в фоне</string>
+    <string name="aggressive_battery_saver_title">Автоматическое включение экономии заряда батареи</string>
+    <string name="aggressive_battery_saver_summary">Включите агрессивную экономию батареи автоматически при использовании экономии заряда батареи</string>
+    <string name="slim_recents_enter_exit_animation_title">Анимация</string>
+    <string name="slim_recents_enter_exit_animation_translate">Translate</string>
+    <string name="slim_recents_enter_exit_animation_fade">Затухание</string>
+    <!-- Statusbar logo -->
+    <string name="statusbar_logo">Логотип</string>
+    <string name="status_bar_logo_title">Пользовательский логотип</string>
+    <string name="status_bar_logo_summary">Показывать пользовательский логотип в статусбаре</string>
+    <string name="status_bar_logo_color">Цвет логотипа</string>
+    <string name="status_bar_logo_position">Позиция логотипа</string>
+    <string name="status_bar_logo_position_summary">%1$s</string>
+    <string name="status_bar_logo_position_right">Слева</string>
+    <string name="status_bar_logo_position_left">Справа</string>
+    <string name="status_bar_logo_style">Стиль логотипа</string>
+    <string name="status_bar_logo_style_havoc">Havoc</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_apple">Яблоко</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Биологическая опасность</string>
+    <string name="status_bar_logo_style_blackberry">Блекберри</string>
+    <string name="status_bar_logo_style_blogger">Блоггер</string>
+    <string name="status_bar_logo_style_bomb">Бомба</string>
+    <string name="status_bar_logo_style_brain">Мозг</string>
+    <string name="status_bar_logo_style_cake">Торт</string>
+    <string name="status_bar_logo_style_cannabis">Канабис</string>
+    <string name="status_bar_logo_style_death_star">Звезда Смерти</string>
+    <string name="status_bar_logo_style_emoticon">Эмодзи</string>
+    <string name="status_bar_logo_style_emoticon_cool">Эмодзи (Крутой)</string>
+    <string name="status_bar_logo_style_emoticon_dead">Эмодзи (Мертвый)</string>
+    <string name="status_bar_logo_style_emoticon_devil">Эмодзи (Дьявол)</string>
+    <string name="status_bar_logo_style_emoticon_happy">Эмодзи (Радостный)</string>
+    <string name="status_bar_logo_style_emoticon_neutral">Эмодзи (Нейтральный)</string>
+    <string name="status_bar_logo_style_emoticon_poop">Эмодзи (Дерьмо)</string>
+    <string name="status_bar_logo_style_emoticon_sad">Эмодзи (Грустный)</string>
+    <string name="status_bar_logo_style_emoticon_tongue">Эмодзи (Язык)</string>
+    <string name="status_bar_logo_style_fire">Огонь</string>
+    <string name="status_bar_logo_style_flask">Колба</string>
+    <string name="status_bar_logo_style_gender_male">Мужской пол</string>
+    <string name="status_bar_logo_style_gender_female">Женский пол</string>
+    <string name="status_bar_logo_style_gender_male_female">Пол (Женский и Мужской)</string>
+    <string name="status_bar_logo_style_ghost">Призрак</string>
+    <string name="status_bar_logo_style_google">Google</string>
+    <string name="status_bar_logo_style_guitar_acoustic">Гитара (Акустическая)</string>
+    <string name="status_bar_logo_style_guitar_electric">Гитара (Электрическая)</string>
+    <string name="status_bar_logo_style_heart">Серце</string>
+    <string name="status_bar_logo_style_human_male">Человек (Мужчина)</string>
+    <string name="status_bar_logo_style_human_female">Человек (Женщина)</string>
+    <string name="status_bar_logo_style_human_male_female">Человек (Мужчина и Женщина)</string>
+    <string name="status_bar_logo_style_incognito">Инкогнито</string>
+    <string name="status_bar_logo_style_ios">iOS</string>
+    <string name="status_bar_logo_style_linux">Linux</string>
+    <string name="status_bar_logo_style_lock">Замок</string>
+    <string name="status_bar_logo_style_music_note">Нота</string>
+    <string name="status_bar_logo_style_ninja">Нинзя</string>
+    <string name="status_bar_logo_style_pac_man">Pac-Man</string>
+    <string name="status_bar_logo_style_peace">Спокойствие</string>
+    <string name="status_bar_logo_style_robot">Робот</string>
+    <string name="status_bar_logo_style_skull">Череп</string>
+    <string name="status_bar_logo_style_smoking">Курение</string>
+    <string name="status_bar_logo_style_wallet">Бумажник</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">XBOX</string>
+    <string name="status_bar_logo_style_xbox_controller">Контроллер XBOX</string>
+    <string name="status_bar_logo_style_yin_yang">Yin-Yang</string>										
 </resources>
