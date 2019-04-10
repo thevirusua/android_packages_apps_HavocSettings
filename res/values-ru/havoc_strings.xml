@@ -244,9 +244,9 @@
     <string name="qs_tile_animation_style_off">Без анимации</string>
     <string name="qs_tile_animation_style_flip">Отразить</string>
     <string name="qs_tile_animation_style_rotate">Вращение</string>
-    <string name="qs_tile_animation_duration_low">Низкий</string>
+    <string name="qs_tile_animation_duration_low">Медленное</string>
     <string name="qs_tile_animation_duration_default">По умолчанию</string>
-    <string name="qs_tile_animation_duration_fast">Быстрый</string>
+    <string name="qs_tile_animation_duration_fast">Быстрое</string>
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_tile_animation_interpolator_title">Длительность анимации плиток QS</string>
@@ -439,7 +439,7 @@
     <string name="volume_rocker_music_controls_summary">Удерживайте клавиши громкости, чтобы переключить треки во время выключенного экрана</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Умные пиксели</string>
-    <string name="smart_pixels_summary">Сохраните батарею, отключив дополнительные пиксели</string>
+    <string name="smart_pixels_summary">Уменьшите энергопотребление дисплея, отключив дополнительные пиксели</string>
     <string name="smart_pixels_on_power_save_title">Автовключение при энергосбережении</string>
     <string name="smart_pixels_on_power_save_summary">Включать «Умные пиксели» в режиме энергосбережения</string>
     <string name="smart_pixels_percent">Отключить % пикселей</string>
