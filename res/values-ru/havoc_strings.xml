@@ -869,7 +869,7 @@
     <string name="expanded_nothing_to_show">Чтобы настроить параметры расширенного экрана для отдельных приложений, переведите переключатель \"Включить для всех\" в положение \"выкл\"</string>
     <string name="expanded_desktop_state">Расширенный экран</string>
     <string name="expanded_enabled_for_all">Включено для всех</string>
-    <string name="expanded_user_configurable">Пользоваьельские кофигурации</string>
+    <string name="expanded_user_configurable">Пользовательские кофигурации</string>
     <string name="expanded_desktop_style">Стиль расширенного режима</string>
     <string name="expanded_desktop_style_description">Выбрать стиль расширенного рабочего стола по умолчанию</string>
     <string name="expanded_desktop_title">Настройки расширенного рабочего стола</string>
