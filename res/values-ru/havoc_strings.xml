@@ -244,9 +244,9 @@
     <string name="qs_tile_animation_style_off">Без анимации</string>
     <string name="qs_tile_animation_style_flip">Отразить</string>
     <string name="qs_tile_animation_style_rotate">Вращение</string>
-    <string name="qs_tile_animation_duration_low">Медленное</string>
+    <string name="qs_tile_animation_duration_low">Короткая</string>
     <string name="qs_tile_animation_duration_default">По умолчанию</string>
-    <string name="qs_tile_animation_duration_fast">Быстрое</string>
+    <string name="qs_tile_animation_duration_fast">Длинная</string>
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_tile_animation_interpolator_title">Длительность анимации плиток QS</string>
