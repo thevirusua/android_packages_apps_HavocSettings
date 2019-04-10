@@ -879,8 +879,7 @@
     <string name="allow_signature_fake_summary">Дозволяти додаткам обходити систему безпеки, видаючи себе за іншу програму</string>
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">Звукові повідомлення</string>
-    <string name="notification_sound_vib_screen_on_summary">Відтворення звуку і вібрації для повідомлень при включеному екрані
-</string>
+    <string name="notification_sound_vib_screen_on_summary">Відтворення звуку і вібрації для повідомлень при включеному екрані</string>
     <!-- CarbonGestures -->
     <string name="carbon_gesture_preference_title">Жести</string>
     <string name="carbon_gestures_summary">Налаштування профілів жестів</string>
@@ -1441,7 +1440,7 @@
     <string name="status_bar_logo_style_human_male">Людина (Чоловік)</string>
     <string name="status_bar_logo_style_human_female">Людина (Жінка)</string>
     <string name="status_bar_logo_style_human_male_female">Людина (Чоловік і Жінка)</string>
-	<string name="status_bar_logo_style_incognito">Інкогніто</string>
+    <string name="status_bar_logo_style_incognito">Інкогніто</string>
     <string name="status_bar_logo_style_ios">iOS</string>
     <string name="status_bar_logo_style_linux">Linux</string>
     <string name="status_bar_logo_style_lock">Замок</string>
