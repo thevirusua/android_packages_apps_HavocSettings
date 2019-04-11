@@ -184,13 +184,13 @@
     <string name="toast_GrowFadeCenter_animation">Увеличение центра затухания</string>
     <string name="toast_GrowFadeBottom_animation">Постепенное затухание вниз</string>
     <string name="toast_Translucent_animation">Полупрозрачный</string>
-    <string name="toast_SlideLeftRight_animation">Сдвиг слева-направо</string>
+    <string name="toast_SlideLeftRight_animation">Сдвиг слева в право</string>
     <string name="toast_SlideRightLeft_animation">Сдвиг справа в влево</string>
     <string name="toast_animation_test">Проверка анимации всплывающих уведомлений</string>
     <string name="toast">Всплывающие уведомления</string>
     <!-- Option to enable/disable scrolling cache -->
     <string name="pref_scrollingcache_title">Кэш прокрутки</string>
-    <string name="pref_scrollingcache_summary">Кэш может улучшить производительность прокрутки за счет памяти</string>
+    <string name="pref_scrollingcache_summary">Кэш может улучшить производительность прокрутки за счет дополнительного использования ОЗУ</string>
     <string name="pref_scrollingcache_force_enable">Включить (принудительно)</string>
     <string name="pref_scrollingcache_default_enable">Включить</string>
     <string name="pref_scrollingcache_default_disable">Отключить</string>
@@ -1392,7 +1392,7 @@
     <string name="aggressive_battery_saver_title">Автоматическое включение экономии заряда батареи</string>
     <string name="aggressive_battery_saver_summary">Включите агрессивную экономию батареи автоматически при использовании экономии заряда батареи</string>
     <string name="slim_recents_enter_exit_animation_title">Анимация</string>
-    <string name="slim_recents_enter_exit_animation_translate">Translate</string>
+    <string name="slim_recents_enter_exit_animation_translate">Перевести</string>
     <string name="slim_recents_enter_exit_animation_fade">Затухание</string>
     <!-- Statusbar logo -->
     <string name="statusbar_logo">Логотип</string>
