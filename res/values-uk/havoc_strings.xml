@@ -1456,5 +1456,14 @@
     <string name="status_bar_logo_style_windows">Windows</string>													   
     <string name="status_bar_logo_style_xbox">XBOX</string>	
     <string name="status_bar_logo_style_xbox_controller">Контролер XBOX</string>												 
-    <string name="status_bar_logo_style_yin_yang">Yin-Yang</string>										
+    <string name="status_bar_logo_style_yin_yang">Yin-Yang</string>		
+    
+     <!-- Lockscreen Visualizer -->
+    <string name="lockscreen_autocolor_title">Автоматичний колір</string>
+    <string name="lockscreen_autocolor_summary">Синхронізувати колір з обкладинкою пісні</string>
+    <string name="lockscreen_autocolor_mediametadata">Необхідно включити відображення обкладинки пісні на екрані блокування</string>
+    <string name="lockscreen_autocolor_lavalamp">Необхідно вимкнути Лавову лампу</string>
+    <string name="lockscreen_lavalamp_title">Лавова лампа</string>
+    <string name="lockscreen_lavalamp_summary">Використовувати плавну анімацію зміни кольору</string>
+    <string name="lockscreen_lavalamp_speed_title">Інтервал зміни кольорів</string>
 </resources>
