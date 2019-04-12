@@ -1461,6 +1461,6 @@
     <string name="lockscreen_autocolor_mediametadata">Необходимо включить отображение обложки песни на экране блокировки</string>
     <string name="lockscreen_autocolor_lavalamp">Необходимо выключить Лавовую лампу</string>
     <string name="lockscreen_lavalamp_title">Лавовая лампа</string>
-    <string name="lockscreen_lavalamp_summary">Использовать плавную анимацию цвета лавовой лампы</string>
+    <string name="lockscreen_lavalamp_summary">Использовать плавную анимацию смены цвета</string>
     <string name="lockscreen_lavalamp_speed_title">Интервал смены цветов</string>
 </resources>
