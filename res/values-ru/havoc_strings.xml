@@ -1454,4 +1454,13 @@
     <string name="status_bar_logo_style_xbox">XBOX</string>
     <string name="status_bar_logo_style_xbox_controller">Контроллер XBOX</string>
     <string name="status_bar_logo_style_yin_yang">Yin-Yang</string>
+     
+     <!-- Lockscreen Visualizer -->
+    <string name="lockscreen_autocolor_title">Автоматический цвет</string>
+    <string name="lockscreen_autocolor_summary">Синхронизировать цвет с обложкой песни</string>
+    <string name="lockscreen_autocolor_mediametadata">Необходимо включить отображение обложки песни на экране блокировки</string>
+    <string name="lockscreen_autocolor_lavalamp">Необходимо выключить Лавовую лампу</string>
+    <string name="lockscreen_lavalamp_title">Лавовая лампа</string>
+    <string name="lockscreen_lavalamp_summary">Использовать плавную анимацию цвета лавовой лампы</string>
+    <string name="lockscreen_lavalamp_speed_title">Интервал смены цветов</string>
 </resources>
